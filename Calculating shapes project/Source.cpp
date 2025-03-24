@@ -2,10 +2,7 @@
 #include<cctype>
 #include <cmath>
 using namespace std;
-
-#ifndef PI
-#define PI 3.14159265358979323846
-#endif
+const int PI =3.14159265358979323846;
 
 void area(char shape) {
     switch (shape) {
